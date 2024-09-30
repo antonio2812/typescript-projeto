@@ -1,0 +1,40 @@
+body{
+    background-color: #282828;
+    color: #fff
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#abrindo{
+    background-color: #898989;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#abrindo:hover{
+    background-color: #545454;
+}
+
+#fechando{
+    background-color: #898989;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: none;
+}
+
+#fechando:hover{
+    background-color: #545454;
+}
